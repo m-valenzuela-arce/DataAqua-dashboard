@@ -52,20 +52,20 @@ st.markdown("""
 <style>
 /* 🔹 Sidebar más delgada y compacta */
 section[data-testid="stSidebar"] {
-    width: 200px !important;
+    width: 215px !important;
     min-width: 200px !important;
     max-width: 200px !important;
 }
 section[data-testid="stSidebar"] .block-container {
-    padding-top: 0.4rem !important;
+    padding-top: 0.6rem !important;
     padding-left: 0.4rem !important;
     padding-right: 0.4rem !important;
 }
 section[data-testid="stSidebar"] h1, 
 section[data-testid="stSidebar"] h2,
 section[data-testid="stSidebar"] h3 {
-    margin-top: 0.3rem !important;
-    margin-bottom: 0.3rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
 
 /* 🔹 Contenido principal más arriba y más ancho */
@@ -95,13 +95,13 @@ h3 {
 
 /* 🔹 Espaciado más ajustado entre métricas */
 div[data-testid="metric-container"] {
-    margin: 0.1rem 0 !important;
-    padding: 0.2rem !important;
+    margin: 0.2rem 0 !important;
+    padding: 0.3rem !important;
 }
 
 /* 🔹 Compactar separadores horizontales */
 hr {
-    margin: 0.4rem 0 !important;
+    margin: 0.5rem 0 !important;
 }
 
 /* 🔹 Reducir padding de tabs */
@@ -112,7 +112,7 @@ div[data-baseweb="tab-list"] {
 
 /* 🔹 Ajustar espacio entre columnas (más denso) */
 div[data-testid="stHorizontalBlock"] {
-    gap: 0.8rem !important;
+    gap: 1rem !important;
 }
 
 /* 🔹 Eliminar padding inferior extra del último elemento */
