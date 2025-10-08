@@ -70,9 +70,9 @@ section[data-testid="stSidebar"] h3 {
 
 /* 🔹 Contenido principal más arriba y más ancho */
 div.block-container {
-    padding-top: 0.6rem !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-top: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
     max-width: 100% !important;
 }
 
