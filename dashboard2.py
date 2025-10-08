@@ -78,7 +78,7 @@ div.block-container {
 
 /* 🔹 Encabezados más compactos */
 h1 {
-    font-size: 1.8rem !important;
+    font-size: 2rem !important;
     margin-top: 0.3rem !important;
     margin-bottom: 0.5rem !important;
 }
