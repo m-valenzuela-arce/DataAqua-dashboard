@@ -45,82 +45,82 @@ RUTA_SALIDA_UNISON = Path("data") / "Salidas_ETo12_con_uac_y_hh" / "Periodo de C
 
 plt.rcParams["figure.dpi"] = 120
 
-# ===========================
-# Apariencia compacta (CSS)
-# ===========================
-st.markdown("""
-<style>
-/* 🔹 Sidebar más delgada y compacta */
-section[data-testid="stSidebar"] {
-    width: 215px !important;
-    min-width: 200px !important;
-    max-width: 200px !important;
-}
-section[data-testid="stSidebar"] .block-container {
-    padding-top: 0.6rem !important;
-    padding-left: 0.4rem !important;
-    padding-right: 0.4rem !important;
-}
-section[data-testid="stSidebar"] h1, 
-section[data-testid="stSidebar"] h2,
-section[data-testid="stSidebar"] h3 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
-}
+# # ===========================
+# # Apariencia compacta (CSS)
+# # ===========================
+# st.markdown("""
+# <style>
+# /* 🔹 Sidebar más delgada y compacta */
+# section[data-testid="stSidebar"] {
+#     width: 215px !important;
+#     min-width: 200px !important;
+#     max-width: 200px !important;
+# }
+# section[data-testid="stSidebar"] .block-container {
+#     padding-top: 0.6rem !important;
+#     padding-left: 0.4rem !important;
+#     padding-right: 0.4rem !important;
+# }
+# section[data-testid="stSidebar"] h1, 
+# section[data-testid="stSidebar"] h2,
+# section[data-testid="stSidebar"] h3 {
+#     margin-top: 0.5rem !important;
+#     margin-bottom: 0.5rem !important;
+# }
 
-/* 🔹 Contenido principal más arriba y más ancho */
-div.block-container {
-    padding-top: 1rem !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-    max-width: 100% !important;
-}
+# /* 🔹 Contenido principal más arriba y más ancho */
+# div.block-container {
+#     padding-top: 1rem !important;
+#     padding-left: 2rem !important;
+#     padding-right: 2rem !important;
+#     max-width: 100% !important;
+# }
 
-/* 🔹 Encabezados más compactos */
-h1 {
-    font-size: 2rem !important;
-    margin-top: 0.3rem !important;
-    margin-bottom: 0.5rem !important;
-}
-h2 {
-    font-size: 1.3rem !important;
-    margin-top: 0.3rem !important;
-    margin-bottom: 0.4rem !important;
-}
-h3 {
-    font-size: 1.1rem !important;
-    margin-top: 0.2rem !important;
-    margin-bottom: 0.3rem !important;
-}
+# /* 🔹 Encabezados más compactos */
+# h1 {
+#     font-size: 2rem !important;
+#     margin-top: 0.3rem !important;
+#     margin-bottom: 0.5rem !important;
+# }
+# h2 {
+#     font-size: 1.3rem !important;
+#     margin-top: 0.3rem !important;
+#     margin-bottom: 0.4rem !important;
+# }
+# h3 {
+#     font-size: 1.1rem !important;
+#     margin-top: 0.2rem !important;
+#     margin-bottom: 0.3rem !important;
+# }
 
-/* 🔹 Espaciado más ajustado entre métricas */
-div[data-testid="metric-container"] {
-    margin: 0.2rem 0 !important;
-    padding: 0.3rem !important;
-}
+# /* 🔹 Espaciado más ajustado entre métricas */
+# div[data-testid="metric-container"] {
+#     margin: 0.2rem 0 !important;
+#     padding: 0.3rem !important;
+# }
 
-/* 🔹 Compactar separadores horizontales */
-hr {
-    margin: 0.5rem 0 !important;
-}
+# /* 🔹 Compactar separadores horizontales */
+# hr {
+#     margin: 0.5rem 0 !important;
+# }
 
-/* 🔹 Reducir padding de tabs */
-div[data-baseweb="tab-list"] {
-    margin-top: 0.2rem !important;
-    margin-bottom: 0.3rem !important;
-}
+# /* 🔹 Reducir padding de tabs */
+# div[data-baseweb="tab-list"] {
+#     margin-top: 0.2rem !important;
+#     margin-bottom: 0.3rem !important;
+# }
 
-/* 🔹 Ajustar espacio entre columnas (más denso) */
-div[data-testid="stHorizontalBlock"] {
-    gap: 1rem !important;
-}
+# /* 🔹 Ajustar espacio entre columnas (más denso) */
+# div[data-testid="stHorizontalBlock"] {
+#     gap: 1rem !important;
+# }
 
-/* 🔹 Eliminar padding inferior extra del último elemento */
-section.main > div:last-child {
-    padding-bottom: 0 !important;
-}
-</style>
-""", unsafe_allow_html=True)
+# /* 🔹 Eliminar padding inferior extra del último elemento */
+# section.main > div:last-child {
+#     padding-bottom: 0 !important;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 # ===========================
 # Apariencia global / helpers
